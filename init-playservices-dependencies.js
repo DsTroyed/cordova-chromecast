@@ -5,7 +5,7 @@
 // project libraries and linking them to the current project.
 // Requires the Android SDK to be installed locally including ANDROID_HOME environment variable to be set.
 
-var fs = require('fs');
+var fs = require('graceful-fs');
 var path = require('path');
 var exec = require('child_process').exec;
 
